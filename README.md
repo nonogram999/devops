@@ -8,4 +8,5 @@ you can read this file.
 [![Releases](https://img.shields.io/github/release/nonogram999/devops/all.svg?style=flat-square)](https://github.com/nonogram/devops/releases)
 
 # DevOps
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/nonogram999/devops/main.yml/Develop?style=flat-square)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nonogram999/devops/main.yml?branch=develop)
+
