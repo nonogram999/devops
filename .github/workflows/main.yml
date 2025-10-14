@@ -18,4 +18,5 @@ jobs:
       - name: Build with Maven
         run: mvn package
       - name: Run docker compose
-        run: docker compose up --abort-on-container-exit
+        working directory: ./seMethods
+        run: docker compose up --abort-on-container-exit --build
