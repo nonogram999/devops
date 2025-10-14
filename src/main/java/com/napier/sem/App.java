@@ -4,8 +4,23 @@ import java.sql.*;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+            // Create new Application
+            App a = new App();
 
+            // Connect to database
+            a.connect();
+
+            // Disconnect from database
+            a.disconnect();
+        }
+    private Connection con = null;
+
+    public void connect() { /* load driver + DriverManager.getConnection(...) */ }
+
+    public void disconnect() { /* close con if not null */ }
+    {
         try {
             // Load Database driver
             Class.forName("com.mysql.cj.jdbc.Driver");
